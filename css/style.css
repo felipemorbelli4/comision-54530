@@ -1,0 +1,529 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: 0%;
+}
+
+
+html{
+    
+    font-size: 10px;
+}
+
+body{
+    background-image: url(../assets/images/4307bc03-2a61-41c3-bcfd-e1814c70783c.jfif);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: rgb(46, 42, 42);
+}
+
+
+
+.body-1{
+    
+    background-color: white;
+}
+
+
+/*.nav{
+    display: inline flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-items: center;
+    color: white;
+}*/
+
+
+.nav{
+margin:0;
+padding:0;
+list-style-type:none;
+} 
+
+.nav a { width:100px;
+text-decoration:none;
+text-align:center;
+color:white;
+padding:30px 5px 0px 100px;
+display:block; }
+
+.nav li {
+float:left;
+}
+
+
+.nav-link-1{
+    
+    display: inline-flex;
+    text-decoration: none;
+    font-size:  2.8rem;
+    color: white;
+    margin: 0rem 0rem 0rem 0rem;
+}
+
+.nav-link-2{
+    
+    /*display: inline-block;*/
+    color: white;
+    text-decoration: none;
+    font-size:  2.8rem;
+    margin: 0rem 0rem 0rem 0rem;
+}
+
+.nav-link-3{
+    /*display: inline-block;*/
+    color: white;
+    text-decoration: none;
+    font-size:  2.8rem;
+    margin: 0rem 0rem 0rem 0rem;
+
+}
+
+.nav-link-4{
+    /*display: inline-block;*/
+    color: white;
+    text-decoration: none;
+    font-size: 2.8rem;
+    margin:  0rem 2rem 0rem 0rem;
+}
+
+
+.logo{
+    margin-top: 2rem;
+    margin-left: 2rem;
+    display: flex;
+    height: 15rem;
+}
+
+
+.nombre-agencia{
+    text-decoration: underline;
+    font-size: 4rem;
+    color: white;
+    margin: 1rem 0rem 0rem 2rem;
+}
+
+.subtitulo{
+    color: white;
+    font-size: 2rem;
+}
+
+
+
+.logotipos{
+    display:flex;
+    height: 10rem;
+    margin: 10rem 0rem 2rem 2rem;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+
+.aprende{
+    text-decoration:underline;
+    color: white;
+    margin: 15rem 0rem 2rem 18rem;
+    font-size: 7rem;
+    text-align: center;
+    
+    
+}
+
+.descripcion{
+    color: rgb(255, 255, 255);
+    margin: 0rem 2rem 25rem 2rem;
+    font-size: 3.2rem;
+    text-align: center;
+
+}
+
+
+
+
+
+.contenedor-noticia{
+    display: grid;
+    grid-template-columns: 60rem 60rem 60rem;
+    grid-template-rows: 100rem ;
+}
+
+
+.noticia{
+    overflow: hidden;
+    border: 9px solid black;
+    box-shadow: 3px 3px 5px grey ;
+    margin: 2rem;
+}
+
+
+.noticia img{
+    display: flex;
+    object-fit: cover;
+    width: 50%;
+    height: 30rem;
+    margin: 3rem 9rem 5rem 15rem;
+}
+
+.rescue-diver{
+    
+    display: flex;
+    color: white;
+    font-size: 10rem;
+    text-decoration: underline;
+    margin: 4rem 0rem 0rem 10rem;
+}
+
+.parrafo-1{
+    color: white;
+    font-size: 3rem;
+    margin: 2rem 0rem 3rem 6rem;
+}
+
+
+.noticia-2{
+    overflow: hidden;
+    
+    border: 9px solid black;
+    box-shadow: 3px 3px 5px grey ;
+    margin: 2rem;
+}
+
+
+.noticia-2 img{
+    display: flex;
+    object-fit: cover;
+    width: 50%;
+    height: 30rem;
+    padding: 8rem 16rem 6rem 13rem;
+}
+
+
+.nitrox{
+    display: flex;
+    color: white;
+    text-decoration: underline;
+    font-size: 10rem;
+    margin: 4rem 0rem 0rem 10rem;
+}
+
+.parrafo-2{
+    color: white;
+    font-size: 3rem;
+    margin: 2rem 0rem 3rem 6rem;
+}
+
+.noticia-3{
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    overflow: hidden;
+    display: flex;
+    border: 9px solid black;
+    box-shadow: 3px 3px 5px grey ;
+    margin: 2rem;
+}
+
+.noticia-3 img{
+    
+    object-fit: cover;
+    width: 60%;
+    height: 30rem;
+    padding: 6rem 5rem 6rem 11rem;
+}
+
+.dive-master{
+    display: flex;
+    color: white;
+    text-decoration: underline;
+    font-size: 10rem;
+    margin: 4rem 0rem 0rem 10rem;
+}
+
+.parrafo-3{
+    color: white;
+    font-size: 3rem;
+    margin: 2rem 0rem 3rem 6rem;
+}
+
+
+
+
+
+
+
+
+
+
+.body-1{
+    background-image: url(../assets/images/e8a7a4f9-e7e7-4e43-97b1-2156c54f8bde.jfif);
+}
+
+.ancla-inicio{
+    color: white;
+    font-size: 3rem;
+
+}
+
+
+.quienes-somos{
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    font-size: 6rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.contenedor-parrafo {
+    border-color: antiquewhite;
+    color: white;
+}
+
+.article-parrafo p { 
+    margin: 8rem 25rem 0rem 25rem;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    color: white;
+    display: flex;
+    font-size: 4rem;
+}
+
+
+.article-parrafo-2 p{
+    color: white;
+    display: flex;
+    font-size: 3rem;
+    margin: 30rem 0rem 0rem 4rem;
+    
+}
+
+.article-parrafo-2 img{
+    height: 30rem;
+    margin: 4rem 0rem 0rem 50rem;
+}
+
+
+
+
+.titulo-viajes{
+    margin: 4rem 0rem 0rem 0rem;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    display: flex;
+    color: rgb(0, 0, 0);
+    font-size: 10rem;
+}
+
+.body-2{
+    background-image: url(../assets/images/preview.jpg)
+}
+
+
+.ancla-inicio-viajes{
+    color: black;
+    font-size: 3rem;
+}
+
+
+.contenedor-viajes{
+
+}
+
+
+
+
+
+
+.img-viajes-1{
+    margin: 0rem 0rem 6rem 0rem;
+    
+    
+    height: 30rem;
+}
+
+
+.idc{
+    color: black;
+    margin: 7rem 0rem 7rem 0rem;
+    font-size: 4rem;
+}
+
+
+.body-3{
+    height: 100%; 
+    font-family: 'Noto Sans', sans-serif;
+    background-color: #ab4493; 
+  }
+  
+  .contact_form{  
+    width: 460px; 
+    height: auto;
+    margin: 80px auto;
+    border-radius: 10px;  
+    padding-top: 30px;
+    padding-bottom: 20px;  
+    background-color: #fbfbfb; 
+    padding-left: 30px; 
+  }
+  
+  
+  input{
+    background-color: #fbfbfb; 
+    width: 408px; 
+    height: 40px; 
+    border-radius: 5px;  
+    border-style: solid; 
+    border-width: 1px; 
+    border-color: #09a6b1; 
+    margin-top: 10px;  
+    padding-left: 10px;
+    margin-bottom: 20px; 
+  }
+  
+  
+  textarea{
+    background-color: #fbfbfb; 
+    width: 405px; 
+    height: 150px; 
+    border-radius: 5px;  
+    border-style: solid; 
+    border-width: 1px; 
+    border-color: #0bb9d8; 
+    margin-top: 10px;  
+    padding-left: 10px;
+    margin-bottom: 20px; 
+    padding-top: 15px; 
+  }
+  
+  
+  label{
+    display: block; 
+    float: center;  
+  }
+  
+.h3-con{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+
+  button{
+    height: 45px; 
+    padding-left: 5px;
+    padding-right: 5px;   
+    margin-bottom: 20px; 
+    margin-top: 10px;   
+    text-transform: uppercase;
+    background-color: #0bb2cf; 
+    border-color: #0bcddb; 
+    border-style: solid; 
+    border-radius: 10px;  
+    width: 420px;   
+    cursor: pointer;
+  }
+  
+  
+  button p{
+    color: #fff; 
+  }
+  
+  
+  span{
+    color: #11c1d8; 
+  }
+  
+  
+  .aviso{
+    font-size: 13px;  
+    color: #0e0e0e;  
+  }
+  
+  
+  h1{
+    font-size: 39px;  
+    text-align: letf; 
+    padding-bottom: 20px; 
+    color: #10a6d3;
+  }
+  
+  
+  h3{
+    font-size: 16px; 
+    padding-bottom: 30px;
+    color: #0e0e0e;   
+  }
+  
+  
+  p{
+    font-size: 14px; 
+    color: #0e0e0e; 
+  }
+  
+  
+  ::-webkit-input-placeholder {
+   color: #a8a8a8;
+  }
+  
+  
+  ::-webkit-textarea-placeholder {
+   color: #a8a8a8;
+  }
+  
+  
+  .formulario input:focus{
+    outline:0;
+    border: 1px solid #97d848;
+  }
+  
+  
+  .formulario textarea:focus{
+    outline:0;
+    border: 1px solid #97d848;
+  }
+
+
+
+
+
+
+
+
+.blog{
+    margin: 2rem 0rem 0rem 60rem;
+    color: white;
+    font-size: 10rem;
+}
+
+.blog-container{
+    display: grid;
+    justify-content: space-around;
+    grid-template-columns: 70rem 50rem;
+    grid-template-rows: 50rem 50rem;
+    grid-template-areas: 
+    
+    "buzo    buzo-2"
+    "iframe-1    iframe-2"
+    ;
+}
+
+
+.buzo{
+    color: white;
+    font-size: 5rem;
+    margin: 6rem 6rem 5rem 18rem;
+}
+
+
+.buzo-2{
+    color: white;
+    font-size: 5rem;
+    margin: 6rem 0rem 5rem 10rem;
+}
+
