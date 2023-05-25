@@ -1,97 +1,113 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wght@300&display=swap');
+
+
+
 *{
-    padding: 0%;
-    margin: 0%;
-    box-sizing: 0%;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
 }
 
-
 html{
-    
     font-size: 10px;
 }
 
+
+
+
 body{
-    background-image: url(../assets/images/4307bc03-2a61-41c3-bcfd-e1814c70783c.jfif);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    background-color: rgb(46, 42, 42);
-}
-
-
-
-.body-1{
+    width: 100%;
+    height: 100%;
     
-    background-color: white;
+    
+    
+    
 }
 
+header{
+    background-color: rgb(0, 0, 0);
+    
+    
+}
 
-/*.nav{
-    display: inline flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: flex-end;
+footer{
+    background-color: #000000;
+}
+
+.nav-menu{
+    display: flex;
+    gap: 10rem;
     align-items: center;
-    color: white;
-}*/
 
-
-.nav{
-margin:0;
-padding:0;
-list-style-type:none;
-} 
-
-.nav a { width:100px;
-text-decoration:none;
-text-align:center;
-color:white;
-padding:30px 5px 0px 100px;
-display:block; }
-
-.nav li {
-float:left;
 }
 
 
-.nav-link-1{
+
+
+.nav-menu ul{
+    display: flex;
+    gap: 9rem;
+    align-items: center;
+
     
-    display: inline-flex;
-    text-decoration: none;
-    font-size:  2.8rem;
-    color: white;
-    margin: 0rem 0rem 0rem 0rem;
+
 }
 
-.nav-link-2{
+
+.nav-menu nav ul li{
+    list-style: none;
+}
+
+
+.nav-menu nav ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 2.5rem;
+}
+
+
+.imagen-header-menu{
+    background-image:url(../assets/images/6\ Homepage\ Banners\ 2000\ x\ 1125\ v2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 85rem;
+    width: 100%;
+ 
+
+}
+
+
+
+
+
+.explora{
     
-    /*display: inline-block;*/
+    font-size: 7rem;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    
     color: white;
-    text-decoration: none;
-    font-size:  2.8rem;
-    margin: 0rem 0rem 0rem 0rem;
+    
+    padding: 10rem 0rem 12rem 7rem;
 }
 
-.nav-link-3{
-    /*display: inline-block;*/
-    color: white;
-    text-decoration: none;
-    font-size:  2.8rem;
-    margin: 0rem 0rem 0rem 0rem;
 
-}
 
-.nav-link-4{
-    /*display: inline-block;*/
-    color: white;
-    text-decoration: none;
-    font-size: 2.8rem;
-    margin:  0rem 2rem 0rem 0rem;
-}
+
+
+
+
+
+
 
 
 .logo{
-    margin-top: 2rem;
+    margin-top: 0rem;
     margin-left: 2rem;
     display: flex;
     height: 15rem;
@@ -108,145 +124,102 @@ float:left;
 .subtitulo{
     color: white;
     font-size: 2rem;
+    margin-bottom: 1rem;
 }
 
 
 
-.logotipos{
-    display:flex;
-    height: 10rem;
-    margin: 10rem 0rem 2rem 2rem;
-    flex-direction: row;
-    justify-content: space-evenly;
-}
-
-
-
-.aprende{
-    text-decoration:underline;
+.parrafo-header-main{
     color: white;
-    margin: 15rem 0rem 2rem 18rem;
-    font-size: 7rem;
-    text-align: center;
-    
-    
-}
-
-.descripcion{
-    color: rgb(255, 255, 255);
-    margin: 0rem 2rem 25rem 2rem;
     font-size: 3.2rem;
-    text-align: center;
-
-}
-
-
-
-
-
-.contenedor-noticia{
-    display: grid;
-    grid-template-columns: 60rem 60rem 60rem;
-    grid-template-rows: 100rem ;
-}
-
-
-.noticia{
-    overflow: hidden;
-    border: 9px solid black;
-    box-shadow: 3px 3px 5px grey ;
-    margin: 2rem;
-}
-
-
-.noticia img{
-    display: flex;
-    object-fit: cover;
-    width: 50%;
-    height: 30rem;
-    margin: 3rem 9rem 5rem 15rem;
-}
-
-.rescue-diver{
     
-    display: flex;
-    color: white;
-    font-size: 10rem;
-    text-decoration: underline;
-    margin: 4rem 0rem 0rem 10rem;
-}
+    width: 100%;
+    padding: 0rem 0rem 2rem 20rem;
 
-.parrafo-1{
-    color: white;
-    font-size: 3rem;
-    margin: 2rem 0rem 3rem 6rem;
 }
 
 
-.noticia-2{
-    overflow: hidden;
+
+.main-inicio{
+    background-color: #000000;
+}
+
+.main-inicio img{
+    height: 12rem;
+    margin: 4rem 0rem 10rem 2rem;
+}
+
+
+.main-inicio h3{
+    color:white;
     
-    border: 9px solid black;
-    box-shadow: 3px 3px 5px grey ;
-    margin: 2rem;
 }
 
 
-.noticia-2 img{
+
+.contenedor-main-info{
     display: flex;
-    object-fit: cover;
-    width: 50%;
-    height: 30rem;
-    padding: 8rem 16rem 6rem 13rem;
-}
-
-
-.nitrox{
-    display: flex;
-    color: white;
-    text-decoration: underline;
-    font-size: 10rem;
-    margin: 4rem 0rem 0rem 10rem;
-}
-
-.parrafo-2{
-    color: white;
-    font-size: 3rem;
-    margin: 2rem 0rem 3rem 6rem;
-}
-
-.noticia-3{
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    overflow: hidden;
-    display: flex;
-    border: 9px solid black;
-    box-shadow: 3px 3px 5px grey ;
-    margin: 2rem;
-}
-
-.noticia-3 img{
     
-    object-fit: cover;
-    width: 60%;
-    height: 30rem;
-    padding: 6rem 5rem 6rem 11rem;
 }
 
-.dive-master{
+
+.contenedor-main-info p{
+    color: white;
+    padding-top: 8rem ;
+    
+    font-size: 2.3rem;
+}
+
+
+.main-inicio h2{
+    color: rgb(255, 255, 255);
+    font-size: 7rem;
+    padding: 15rem 0rem 0rem 0rem;
     display: flex;
-    color: white;
-    text-decoration: underline;
-    font-size: 10rem;
-    margin: 4rem 0rem 0rem 10rem;
+    justify-content: center;
 }
 
-.parrafo-3{
-    color: white;
-    font-size: 3rem;
-    margin: 2rem 0rem 3rem 6rem;
+
+.contenedor-main-info-2{
+    display: flex;
 }
+
+
+.contenedor-footer-logos{
+    display: flex;
+    justify-content: center;
+    padding: 20px 20px;
+    border-radius: 25px;
+
+}
+
+i{
+    color: white;
+    padding: 20px 20px;
+    font-size: 8rem;
+    position: relative;
+    transition: .5s;
+}
+
+.facebook:hover{
+    transform: scale(2);
+    color: rgb(13, 93, 212);
+
+}
+
+.insta:hover{
+    transform: scale(2);
+    color: rgb(255, 106, 6);
+}
+
+
+
+.google:hover{
+    transform: scale(2);
+    color: rgb(184, 53, 53);
+}
+
+
 
 
 
@@ -259,11 +232,15 @@ float:left;
 
 .body-1{
     background-image: url(../assets/images/e8a7a4f9-e7e7-4e43-97b1-2156c54f8bde.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .ancla-inicio{
     color: white;
     font-size: 3rem;
+    
 
 }
 
@@ -306,7 +283,9 @@ float:left;
     margin: 4rem 0rem 0rem 50rem;
 }
 
-
+.header-viajes{
+    color: rgb(0, 0, 0);
+}
 
 
 .titulo-viajes{
@@ -315,7 +294,7 @@ float:left;
     flex-wrap: nowrap;
     justify-content: center;
     display: flex;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-size: 10rem;
 }
 
@@ -325,7 +304,7 @@ float:left;
 
 
 .ancla-inicio-viajes{
-    color: black;
+    color: rgb(255, 255, 255);
     font-size: 3rem;
 }
 
@@ -357,7 +336,7 @@ float:left;
 .body-3{
     height: 100%; 
     font-family: 'Noto Sans', sans-serif;
-    background-color: #ab4493; 
+    background-color: #000000; 
   }
   
   .contact_form{  
@@ -501,18 +480,18 @@ float:left;
     font-size: 10rem;
 }
 
-.blog-container{
+.grid-container{
+    width: 100%;
     display: grid;
-    justify-content: space-around;
-    grid-template-columns: 70rem 50rem;
-    grid-template-rows: 50rem 50rem;
-    grid-template-areas: 
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto;
     
-    "buzo    buzo-2"
-    "iframe-1    iframe-2"
-    ;
 }
 
+.grid-container div{
+    width: 100%;
+    
+}
 
 .buzo{
     color: white;
@@ -527,3 +506,117 @@ float:left;
     margin: 6rem 0rem 5rem 10rem;
 }
 
+
+
+
+.parrafo-final{
+    color:white; 
+    font-size: 2.3rem; 
+    padding: 5rem 20rem 0rem 3rem;
+}
+
+.img-curso{
+    height: 20rem;
+}
+
+
+
+.parrafo-final-2{
+    color:white;
+    font-size: 2.3rem; 
+    padding: 5rem 20rem 0rem 3rem;
+
+}
+
+
+
+
+@media (max-width: 1024px){
+    
+    body{
+        width: 123%;
+    }
+
+    .nav-menu ul{
+        gap: 3.5rem;
+    }
+    
+
+    .responsive-main img{
+        height: 20rem;
+    }
+}
+
+
+@media (max-width:768px){
+
+    body{
+        width: 140%;
+    }
+
+    .nav-menu nav ul li a{
+        font-size: 1.9rem;
+    }
+
+    .card-img-top{
+        width: 20rem;
+    }
+
+
+    .parrafo-final{
+        font-size: 1.9rem;
+        padding: 5rem 4rem 0rem 3rem;
+    }
+
+    .img-curso{
+        height: 20rem;
+        width: 48rem;
+    }
+
+
+    .parrafo-final-2{
+        font-size: 1.9rem;
+    }
+
+
+}
+
+
+@media (max-width:425px){
+
+    body{
+        width: 230%;
+    }
+
+    .logo{
+        height: 3rem;
+    }
+
+
+    .nombre-agencia{
+        margin: 0rem 0rem 3.3rem 1rem;
+        font-size: 1.5rem;
+        text-decoration: none;
+    }
+
+
+    .subtitulo{
+        display: none;
+    }
+
+
+    .nav-menu nav ul li a{
+        font-size: 1.9rem;
+    }
+
+    .contenedor-main-info p{
+        font-size: 1.8rem;
+    }
+}
+
+
+@media(max-width:320px){
+    .parrafo-final-2{
+        padding: 2.9rem 0rem 0rem 1.3rem;
+    }
+}
