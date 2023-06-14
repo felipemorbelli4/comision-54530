@@ -1,0 +1,152 @@
+
+.imagen-header-menu{
+    background-image:url(../assets/images/sebastian-pena-lambarri-poly_hmhwJs-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 77rem;
+    width: 100%;
+    background-attachment: fixed;
+
+    .nav-menu{
+        background-image: linear-gradient(to right top, #030113, #060219, #09031e, #0c0423, #0e0528);
+        @include nav-menu(center, 10rem);
+        .logo{
+            margin-top: 0rem;
+            margin-left: 2rem;
+            display: flex;
+            height: 11rem;
+            .nombre-agencia{
+                font-size: 2rem;
+                color: white;
+                margin: 1rem 0rem 0rem 2rem;
+            }
+            .subtitulo{
+                color: white;
+                font-size: 2rem;
+                margin-bottom: 1rem;
+            }
+        }
+        ul{
+            display: flex;
+            gap: 9rem;
+            align-items: center;
+            li{
+                list-style: none;
+                transition: all 0.7s;
+                &:hover{
+                    transform: scale(1.2);
+                }
+                a{
+                    text-decoration: none;
+                    color: rgb(255, 255, 255);
+                    font-size: 1.9rem;
+                    font-family: 'Niramit', sans-serif;
+                    font-weight:700;
+                    transition: all 1s;
+                    &:hover{
+                        background: linear-gradient(to right top, #f6ff00, #f6ff00, #f6ff00, #f4fc06, #f3fb08);
+                        -webkit-text-fill-color: transparent;
+                        -webkit-background-clip: text;
+                    }
+                }
+            }
+        }
+    }
+    .tracking-in-expand {
+        -webkit-animation: tracking-in-expand 2s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+            animation: tracking-in-expand 2s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+            
+        .explora{
+            font-size: 7rem;
+            display: flex;
+            flex-wrap: nowrap;
+            flex-direction: row;
+            justify-content: center;
+            color: white;
+            padding: 10rem 0rem 12rem 7rem;}
+    }
+    .parrafo-header-main{
+        color: white;
+        font-size: 3.2rem;
+        
+        width: 100%;
+        padding: 0rem 0rem 2rem 20rem;
+    
+    }
+    @-webkit-keyframes tracking-in-expand {
+        0% {
+        letter-spacing: -0.5em;
+        opacity: 0;
+        }
+        40% {
+        opacity: 0.6;
+        }
+        100% {
+        opacity: 1;
+        }
+    }
+    @keyframes tracking-in-expand {
+        0% {
+        letter-spacing: -0.5em;
+        opacity: 0;
+        }
+        40% {
+        opacity: 0.6;
+        }
+        100% {
+        opacity: 1;
+        }
+    }
+}
+
+
+.header-4{
+    .nav-menu{
+        background-image: linear-gradient(to right top, #030113, #060219, #09031e, #0c0423, #0e0528);
+        display: flex;
+        gap: 10rem;
+        align-items: center;
+        .logo{
+            margin-top: 0rem;
+            margin-left: 2rem;
+            display: flex;
+            height: 11rem;
+            .nombre-agencia{
+                font-size: 2rem;
+                color: white;
+                margin: 1rem 0rem 0rem 2rem;
+            }
+            .subtitulo{
+                color: white;
+                font-size: 2rem;
+                margin-bottom: 1rem;
+            }
+        }
+        ul{
+            display: flex;
+            gap: 9rem;
+            align-items: center;
+            li{
+                list-style: none;
+                transition: all 0.7s;
+                &:hover{
+                    transform: scale(1.2);
+                }
+                a{
+                    text-decoration: none;
+                    color: rgb(255, 255, 255);
+                    font-size: 1.9rem;
+                    font-family: 'Niramit', sans-serif;
+                    font-weight:700;
+                    transition: all 1s;
+                    &:hover{
+                        background: linear-gradient(to right top, #f6ff00, #f6ff00, #f6ff00, #f4fc06, #f3fb08);
+                        -webkit-text-fill-color: transparent;
+                        -webkit-background-clip: text;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,22 @@
+@import "./base/typo";
+@import "./utilities/variables";
+@import "./utilities/mixins";
+@import "./base/reset";
+
+@import "./components/bootstrap";
+
+@import "./layout/body";
+@import "./layout/header";
+@import "./layout/main-index";
+@import "./layout/main-sobrenosotros";
+@import "./layout/main-blog";
+@import "./layout/main-viajes";
+@import "./layout/main-contacto";
+@import "./layout/footers";
+
+
+@import "./layout/media1024";
+@import "./layout/media768";
+@import "./layout/media425";
+@import "./layout/media375";
+@import "./layout/media320";

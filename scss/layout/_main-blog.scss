@@ -1,0 +1,17 @@
+.gradiante{
+    background-image: linear-gradient(to right top, #030113, #060219, #09031e, #0c0423, #0e0528);
+    width: 100%;
+    .titulo-cursos-1{
+        display: flex;
+        justify-content: center;
+        
+        padding-top: 9rem;
+        
+        font-family: 'Lato', sans-serif;
+        font-weight: 500;
+        font-size: 4rem;
+        background: linear-gradient(to right top, #dae119, #d2d917, #cbd116, #c3ca14, #bcc213);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+    }
+}

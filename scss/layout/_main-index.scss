@@ -1,0 +1,58 @@
+main {
+    
+    .contenedor-main-info{
+        display: flex;
+        img{
+            height: 12rem;
+        }
+        p{
+            color: white;
+            padding-top: 5rem ;
+            font-size: 1.7rem;
+        }
+        
+    }
+    .titulo-viaje-realizado{
+        display: flex;
+        justify-content: center;
+        font-size: 6.5;
+        color: white;
+        text-decoration: none;
+        font-size: 5rem;
+        padding-top: 7rem;
+    }
+    .nuestros-cursos-titulo{
+        display: flex;
+        justify-content: center;
+        font-size: 4.5rem;
+        color: white;
+        padding-top: 7rem;
+    }
+    .parrafo-final{
+        color:white; 
+        font-size: 1.7rem; 
+        padding: 5rem 20rem 0rem 3rem;
+    }
+    .parrafo-final-2{
+        color:white;
+        font-size: 1.7rem; 
+        padding: 5rem 20rem 0rem 3rem;
+    
+    }
+}
+
+
+.main-inicio{
+    background-image: linear-gradient(to right top, #030113, #060219, #09031e, #0c0423, #0e0528);
+    h2{
+        color: rgb(255, 255, 255);
+        font-size: 7rem;
+        padding: 15rem 0rem 0rem 0rem;
+        display: flex;
+        justify-content: center;
+    }
+    img{
+        height: 12rem;
+        margin: 4rem 0rem 10rem 2rem;
+    }
+}

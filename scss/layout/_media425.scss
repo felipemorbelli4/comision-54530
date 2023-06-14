@@ -1,0 +1,39 @@
+@media (max-width:425px){
+
+    body{
+        width: 230%;
+    }
+
+    .logo{
+        height: 3rem;
+    }
+
+
+    .nombre-agencia{
+        margin: 0rem 0rem 3.3rem 1rem;
+        font-size: 1.5rem;
+        text-decoration: none;
+    }
+
+
+    .subtitulo{
+        display: none;
+    }
+    
+    .nav-menu{
+        nav{
+            ul{
+                li{
+                    a{
+                        font-size:1.9rem;
+                    }
+                }
+            }
+        }
+    }
+    .contenedor-main-info{
+        p{
+            font-size: 1.8rem;
+        }
+    } 
+}

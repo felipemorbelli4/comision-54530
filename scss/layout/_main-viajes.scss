@@ -1,0 +1,71 @@
+main{
+    .parallax-1{
+        background-image: url(../assets/images/fernando-jorge-rMaWin9-9Gk-unsplash.jpg);
+        height: 95rem;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        .gradiante-1{
+            background-image: linear-gradient(to right top, #030113, #060219, #09031e, #0c0423, #0e0528);
+            width: 100%;
+            background: rgba(5, 7, 12, 0.781)
+        }
+        
+    }
+    .parallax-2{
+        background-image: url(../assets/images/davi-costa-4lWIQ43CCmM-unsplash.jpg);
+        height: 75rem;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    .parallax-3{
+        background-image: url(../assets/images/impresionante-vista-acantilados-rocosos-junto-al-oceano-capturados-ciudad-cabo-sudafrica.jpg);
+        height: 70rem;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    .parallax-4{
+        background-image: url(../assets/images/paisaje-isla-wajag-rodeada-mar-cielo-nublado-indonesia.jpg);
+        height: 70rem;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    .parallax-5{
+        background-image: url(../assets/images/paisaje-palma-tropical-vacaciones-verano.jpg);
+        height: 70rem;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    .parallax-6{
+        background-image: url(../assets/images/kit-suman-5mcnzeSHFvE-unsplash.jpg);
+        height: 95rem;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        
+        .gradiante-1{
+            background-image: linear-gradient(to right top, #030113, #060219, #09031e, #0c0423, #0e0528);
+            width: 100%;
+            background: rgba(5, 7, 12, 0.781)
+}
+    }
+    
+    .parallax-7{
+        background-image: url(../assets/images/engin-yapici-WA1u0scVLZU-unsplash.jpg);
+        height: 70rem;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+}
