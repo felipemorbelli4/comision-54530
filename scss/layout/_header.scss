@@ -41,7 +41,7 @@
                     text-decoration: none;
                     color: rgb(255, 255, 255);
                     font-size: 1.9rem;
-                    font-family: 'Niramit', sans-serif;
+                    font: $font;
                     font-weight:700;
                     transition: all 1s;
                     &:hover{
